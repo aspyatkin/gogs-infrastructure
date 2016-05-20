@@ -1,0 +1,7 @@
+{
+  "id": "__sample",
+  "credentials": {
+    "postgres": "",  // PostgreSQL root user password
+    "gogs_user": ""  // PostgreSQL Gogs service user password
+  }
+}

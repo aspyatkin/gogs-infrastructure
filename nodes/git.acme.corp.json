@@ -1,0 +1,26 @@
+{
+  "environment": "development",
+  "run_list": [
+    "recipe[resolver::default]",
+    "recipe[python::default]",
+    "recipe[latest-git::default]",
+    "recipe[dotfiles::default]",
+    "recipe[gogs::default]"
+  ],
+  "automatic": {
+    "ipaddress": "git.acme.corp"
+  },
+  "gogs": {
+    "gogs": {
+      "conf": {
+        "app_name": "ACME Corp. - Git Server",
+        "server": {
+          "domain": "git.acme.corp"
+        },
+        "mailer": {
+          "from": "ACME Corp.'s Git <git@acme.corp>"
+        }
+      }
+    }
+  }
+}
