@@ -5,8 +5,8 @@ DEPENDENCIES
     tag: v1.2.0
   gogs
     git: https://github.com/aspyatkin/gogs-cookbook
-    revision: 3ef4841f2e9a96936cb9240e87b41b5d08da30e0
-    tag: v1.0.1
+    revision: 2f3adfc9f3d5a33ab083bce6915c5cdb7e87b638
+    tag: v1.0.2
   latest-git
     git: https://github.com/aspyatkin/latest-git
     revision: 8a73d55baace78cd6de5a54d698dc624bf2bfdac
@@ -49,7 +49,7 @@ GRAPH
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  gogs (1.0.1)
+  gogs (1.0.2)
     database (~> 5.1.2)
     golang (~> 1.7.0)
     latest-git (~> 1.1.7)
