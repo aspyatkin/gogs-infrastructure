@@ -1,4 +1,3 @@
-bravo.server.indigobyte.dev.json
-echo.server.indigobyte.st.json
-git.dev.volgactf.org.json
-git.volgactf.org.json
+*
+!.gitignore
+!git.acme.corp.json
