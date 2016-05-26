@@ -8,6 +8,6 @@ cookbook 'latest-git', git: 'https://github.com/aspyatkin/latest-git', tag: 'v1.
 cookbook 'latest-nodejs', git: 'https://github.com/aspyatkin/latest-nodejs', tag: 'v1.2.5'
 cookbook 'latest-redis', git: 'https://github.com/aspyatkin/latest-redis', tag: 'v1.1.3'
 cookbook 'modern_nginx', git: 'https://github.com/aspyatkin/modern_nginx', tag: 'v1.2.6'
-cookbook 'gogs', git: 'https://github.com/aspyatkin/gogs-cookbook', tag: 'v1.0.2'
+cookbook 'gogs', git: 'https://github.com/aspyatkin/gogs-cookbook', tag: 'v1.0.3'
 
 # cookbook 'gogs', path: '../gogs-cookbook'
