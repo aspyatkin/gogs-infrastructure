@@ -1,0 +1,24 @@
+{
+  "id": "__sample",
+  "certificates": [
+    {
+      "domains": [
+        "git.acme.corp"  // server FQDN
+      ],
+      "chain": [  // SSL certificate chain (newlines escaped)
+        "-----BEGIN CERTIFICATE-----\n..........\n-----END CERTIFICATE-----\n",
+        "-----BEGIN CERTIFICATE-----\n..........\n-----END CERTIFICATE-----\n"
+      ],
+      "private_key": "-----BEGIN RSA PRIVATE KEY-----\n..........\n-----END RSA PRIVATE KEY-----\n",  // SSL certificate private key (newlines escaped)
+      "hpkp_pins": [  // HPKP pins (base64 encoded)
+        "wZgbeR6b........",
+        "bDSe0744........"
+      ],
+      "scts": {  // SCTs (base64 encoded)
+        "google_aviator": "AGj2mPgf........3nYNtNU=",
+        "google_pilot": "AKS5CZC0........RnySxdE=",
+        "google_rocketeer": "AO5Lvbd1........bdC+zlI="
+      }
+    }
+  ]
+}
