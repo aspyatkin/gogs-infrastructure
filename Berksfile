@@ -21,9 +21,9 @@ cookbook 'modern_nginx',
 cookbook 'gogs',
          # path: '../gogs-cookbook'
          git: 'https://github.com/aspyatkin/gogs-cookbook',
-         tag: 'v1.1.0'
+         tag: 'v1.1.1'
 
-cookbook 'tls', '~> 1.0.1'
+cookbook 'tls', '~> 2.0.0'
          # path: '../tls-cookbook'
          # git: 'https://github.com/aspyatkin/tls-cookbook',
-         # tag: 'v1.0.1'
+         # tag: 'v2.0.0'
