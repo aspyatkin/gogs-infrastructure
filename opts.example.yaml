@@ -1,6 +1,6 @@
 vm:
   box: aspyatkin/ubuntu-14.04-server-amd64
-  box_version: ~> 1.0.3
+  box_version: ~> 1.0.4
   ssh_insert_key: no
   name: git.acme.corp
   memory: 2048
